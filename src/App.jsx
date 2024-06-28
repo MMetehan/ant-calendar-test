@@ -14,7 +14,7 @@ function App() {
   return (
     <>
       <Row gutter={8}>
-        <Col className="gutter-row" xs={12}>
+        <Col className="gutter-row" xs={8}>
           <div>
             <ColorPicker
               defaultValue="#1677ff"
@@ -27,7 +27,7 @@ function App() {
             />
           </div>
         </Col>
-        <Col className="gutter-row" xs={12}>
+        <Col className="gutter-row" xs={16}>
           <div
             style={Object.assign({}, style.customBox, {
               backgroundColor: backColor,
